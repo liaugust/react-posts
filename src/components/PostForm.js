@@ -3,7 +3,7 @@ import { connect } from 'react-redux'
 
 import { createPost } from '../redux/actions/posts'
 import { showAlert } from '../redux/actions/app'
-import { Alert } from './Alert'
+import Alert from './Alert'
 
 class PostForm extends Component {
 	constructor(props) {
