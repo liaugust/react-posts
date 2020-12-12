@@ -1,5 +1,5 @@
-import { showAlert } from "./actions/app"
-import { CREATE_POST } from "./types"
+import { showAlert } from "../actions/app"
+import { CREATE_POST } from "../types"
 
 const forbidden = ['fuck', 'php', 'spam']
 

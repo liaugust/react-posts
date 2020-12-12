@@ -1,4 +1,3 @@
-/* eslint-disable import/no-anonymous-default-export */
 import React from 'react'
 import { connect } from 'react-redux'
 
@@ -17,6 +16,4 @@ const mapStateToProps = state => {
   }
 }
 
-// const mapDispatchToProps = state => ({})
-
-export default connect(mapStateToProps, null)(Posts)
+export default connect(mapStateToProps)(Posts)
